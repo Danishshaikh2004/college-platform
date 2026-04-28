@@ -1,6 +1,6 @@
 # 🎓 College Finder Platform
 
-A full-stack web application that helps students explore, compare, and analyze colleges based on key metrics like fees, ratings, and placement percentage.
+A full-stack web application that helps students explore, compare, and analyze colleges based on fees, ratings, and placement percentage.
 
 ---
 
@@ -12,147 +12,123 @@ A full-stack web application that helps students explore, compare, and analyze c
 
 ## 📌 Features
 
-### 🔍 1. College Listing & Search
+### 🔍 College Listing & Search
 
-* Browse colleges with a clean UI
 * Search colleges by name
 * Filter by location and fees
 
----
+### 🏫 College Detail Page
 
-### 🏫 2. College Detail Page
+* View complete college information
+* Includes fees, rating, placement %
 
-* View detailed information of each college
-* Includes:
-
-  * Location
-  * Fees
-  * Rating
-  * Placement Percentage
-
----
-
-### ⚖️ 3. Compare Colleges (Core Feature)
+### ⚖️ Compare Colleges
 
 * Select multiple colleges
-* Compare side-by-side in a table
-* Highlights best college based on rating
-* Includes:
+* Compare side-by-side
+* Highlights best college
 
-  * Fees
-  * Rating
-  * Placement %
+### ❤️ Save Colleges
 
----
-
-### ❤️ 4. Save Colleges (User-Specific)
-
-* Simple login system (client-side)
+* Login (client-side)
 * Save/unsave colleges
-* Data stored per user using localStorage
+* User-specific storage
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
+**Frontend**
 
-* Next.js (App Router)
+* Next.js
 * TypeScript
 * Tailwind CSS
 
-### Backend
+**Backend**
 
 * Node.js
 * Express.js
 
-### Database
+**Database**
 
 * PostgreSQL (Neon)
 
 ---
 
-## 🧠 Key Design Decisions
-
-* Used **client-side authentication (localStorage)** for simplicity
-* Implemented **user-specific saved colleges** using dynamic localStorage keys
-* Focused on **decision-making UX** (compare feature)
-* Built modular components for scalability and maintainability
-
----
-
 ## 📂 Project Structure
 
+```
 college-platform/
 │
-├── frontend/   # Next.js application
+├── frontend/   # Next.js app
 ├── backend/    # Express API
 └── README.md
+```
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone Repository
+### 1️⃣ Clone Repository
 
+```bash
 git clone https://github.com/your-username/college-platform.git
 cd college-platform
+```
 
 ---
 
-### 2. Backend Setup
+### 2️⃣ Backend Setup
 
+```bash
 cd backend
 npm install
 npm run dev
+```
 
 ---
 
-### 3. Frontend Setup
+### 3️⃣ Frontend Setup
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 ---
 
-### 4. Open Application
+### 4️⃣ Open Application
 
+```
 http://localhost:3000
+```
 
 ---
 
 ## 🔐 Authentication Note
 
-This project uses **client-side authentication** for demonstration purposes.
-In a production environment, this would be replaced with:
-
-* JWT authentication
-* Secure backend sessions
-* Database-based user management
+This project uses **client-side authentication (localStorage)**.
+In production, this would be replaced with secure backend authentication.
 
 ---
 
 ## 📊 Future Improvements
 
-* Backend authentication (JWT)
-* Save colleges in database (user-specific)
-* Add ranking system for better comparison
+* JWT authentication
+* Save data in database
 * Add reviews & ratings
-* Improve mobile responsiveness
-* Add pagination & sorting
+* Improve mobile UI
 
 ---
 
 ## 🎥 Demo Video
 
-👉 (Add Loom video link here)
+👉 (Add Loom link here)
 
 ---
 
 ## 👨‍💻 Author
 
 Danish Shaikh
-GitHub: https://github.com/your-username
-
----
+GitHub: https://github.com/Danishshaikh2004
