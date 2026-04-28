@@ -109,7 +109,7 @@ cd college-platform
 ```bash
 cd backend
 npm install
-npm run dev
+npx ts-node-dev src/index.ts
 ```
 
 ---
