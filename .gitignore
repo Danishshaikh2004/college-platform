@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+dist/
+.next/
+out/
+
+# VS Code
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
