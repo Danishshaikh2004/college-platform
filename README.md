@@ -6,7 +6,7 @@ A full-stack web application that helps students explore, compare, and analyze c
 
 ## 🚀 Live Demo
 
-👉 [(Add after deployment)](https://college-platform-hazel.vercel.app/)
+👉 [(College-Platform)](https://college-platform-hazel.vercel.app/)
 
 ---
 
