@@ -6,7 +6,7 @@ A full-stack web application that helps students explore, compare, and analyze c
 
 ## 🚀 Live Demo
 
-👉 (Add after deployment)
+👉 [(Add after deployment)](https://college-platform-hazel.vercel.app/)
 
 ---
 
@@ -150,12 +150,6 @@ In a production environment, this would be replaced with:
 * Add ranking system for better comparison
 * Add college reviews & ratings
 * Improve mobile responsiveness
-
----
-
-## 🎥 Demo Video
-
-👉 (Add Loom video link here)
 
 ---
 
