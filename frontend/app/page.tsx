@@ -31,7 +31,7 @@ export default function Home() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:5000/test-db")
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/test-db`)
       .then((res) => res.json())
       .then((data) => setColleges(data));
   }, []);
