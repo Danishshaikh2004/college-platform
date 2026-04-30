@@ -18,7 +18,7 @@ export default function CollegeDetail() {
   const [college, setCollege] = useState<College | null>(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/test-db")
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/test-db`)
       .then((res) => res.json())
       .then((data) => {
         const found = data.find((c: College) => c.id === Number(id));
